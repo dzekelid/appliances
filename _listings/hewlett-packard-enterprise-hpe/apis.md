@@ -15,9 +15,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/apis.md
 specificationVersion: "0.14"
 apis:
-- name: HPE OneSphere API
-  x-api-slug: hpe-onesphere-api
-  description: hpe-onesphere-hybrid-cloud-management-rest-api-for-calls-requiring-authentication-use-restsession-to-get-a-token-
+- name: HPE OneSphere API - Get Appliances
+  x-api-slug: appliances-get
+  description: Returns appliances.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
   humanURL: http://HPE.com
   baseURL: https://deic02-hpe.hpeonesphere.com//rest
@@ -27,89 +27,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-get-openapi.md
-- name: HPE OneSphere API
-  x-api-slug: hpe-onesphere-api
-  description: hpe-onesphere-hybrid-cloud-management-rest-api-for-calls-requiring-authentication-use-restsession-to-get-a-token-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-post-openapi.md
-- name: HPE OneSphere API
-  x-api-slug: hpe-onesphere-api
-  description: hpe-onesphere-hybrid-cloud-management-rest-api-for-calls-requiring-authentication-use-restsession-to-get-a-token-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliancesid-delete-openapi.md
-- name: HPE OneSphere API
-  x-api-slug: hpe-onesphere-api
-  description: hpe-onesphere-hybrid-cloud-management-rest-api-for-calls-requiring-authentication-use-restsession-to-get-a-token-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliancesid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliancesid-get-openapi.md
-- name: HPE OneSphere API
-  x-api-slug: hpe-onesphere-api
-  description: hpe-onesphere-hybrid-cloud-management-rest-api-for-calls-requiring-authentication-use-restsession-to-get-a-token-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliancesid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliancesid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliancesid-patch-openapi.md
-- name: HPE OneSphere API
-  x-api-slug: hpe-onesphere-api
-  description: We help customers use technology to slash the time it takes to turn
-    ideas into value. In turn, they transform industries, markets and lives. Some
-    of our customers run traditional IT environments. Most are transitioning to a
-    secure, cloud-enabled, mobile-friendly infrastructure. Many rely on a combination
-    of both. Wherever they are in that journey, we provide the technology and solutions
-    to help them succeed.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Appliances
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/openapi.md
 x-common:
 - type: x-developer
   url: https://developer.hpe.com/

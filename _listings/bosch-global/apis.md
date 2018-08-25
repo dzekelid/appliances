@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/bosch-global/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Bosch Global
-  x-api-slug: bosch-global
-  description: 'Invented for life: we want our products to spark enthusiasm, improve
-    quality of life, and help conserve natural resources.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28143-developer-bosch-com.jpg
-  humanURL: https://developer.bosch.com
-  baseURL: https:///
-  tags: Appliances
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/bosch-global/openapi.md
+apis: []
 x-common:
 - type: x-applications-showcase
   url: https://developer.bosch.com/showcase
