@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Appliances",
+	"description": "This is a repository of appliances APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/appliances.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://appliances.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Hewlett Packard Enterprise (HPE)",
+			"x-api-slug": "hewlett-packard-enterprise-hpe",
+			"description": "We help customers use technology to slash the time it takes to turn ideas into value. In turn, they transform industries, markets and lives. Some of our customers run traditional IT environments. Most are transitioning to a secure, cloud-enabled, mobile-friendly infrastructure. Many rely on a combination of both. Wherever they are in that journey, we provide the technology and solutions to help them succeed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png",
+			"humanURL": "http://HPE.com",
+			"baseURL": "https://deic02-hpe.hpeonesphere.com//rest",
+			"tags": "Appliances",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bosch Global",
+			"x-api-slug": "bosch-global",
+			"description": "Invented for life: we want our products to spark enthusiasm, improve quality of life, and help conserve natural resources.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28143-developer-bosch-com.jpg",
+			"humanURL": "https://developer.bosch.com",
+			"baseURL": "https:///",
+			"tags": "Appliances",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/bosch-global/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Appliances",
+	"include": [
+		{
+			"name": "Hewlett Packard Enterprise (HPE)",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/apis.yaml"
+		},
+		{
+			"name": "Bosch Global",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/bosch-global/apis.yaml"
+		}
+	]
+}

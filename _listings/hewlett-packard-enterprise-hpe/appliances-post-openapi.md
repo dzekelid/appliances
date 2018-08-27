@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Hewlett Packard Enterprise (HPE)
 x-complete: 0
 info:
-  title: HPE OneSphere API Get Appliances
-  description: Returns appliances.
+  title: HPE OneSphere API Post Appliances
+  description: Create an appliance.
   termsOfService: http://www.hpe.com/onesphere
   contact:
     name: HPE OneSphere API team
@@ -32,6 +32,21 @@ paths:
       - in: query
         name: regionUri
         description: Set of appliances in this region
+      responses:
+        200:
+          description: OK
+      tags:
+      - Appliances
+    post:
+      summary: Post Appliances
+      description: Create an appliance.
+      operationId: CreateAppliance
+      x-api-path-slug: appliances-post
+      parameters:
+      - in: body
+        name: appliance
+        schema:
+          $ref: '#/definitions/holder'
       responses:
         200:
           description: OK

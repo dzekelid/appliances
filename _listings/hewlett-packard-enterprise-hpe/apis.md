@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Appliances
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/apis.md
 specificationVersion: "0.14"
 apis:
@@ -27,6 +27,52 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-get-openapi.md
+- name: HPE OneSphere API - Post Appliances
+  x-api-slug: appliances-post
+  description: Create an appliance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliances-post-openapi.md
+- name: HPE OneSphere API - Delete Appliances
+  x-api-slug: appliancesid-delete
+  description: |-
+    Delete an appliance.
+    This removes the appliance registration and tears down the secure
+    comms link to the on-premise appliance.
+    If zones exist on this appliance, an '409' error will be returned.
+    The zones on this appliance must be removed before the appliance
+    delete request can be accepted.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliancesid-delete-openapi.md
+- name: HPE OneSphere API - Get Appliances
+  x-api-slug: appliancesid-get
+  description: Returns an appliance based on its ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliancesid-get-openapi.md
+- name: HPE OneSphere API - Patch Appliances
+  x-api-slug: appliancesid-patch
+  description: Update properties of an appliance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appliances/master/_listings/hewlett-packard-enterprise-hpe/appliancesid-patch-openapi.md
 x-common:
 - type: x-developer
   url: https://developer.hpe.com/

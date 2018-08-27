@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Bosch Global
 x-complete: 1
@@ -11,4 +10,3 @@ produces:
 - application/json
 consumes:
 - application/json
----
